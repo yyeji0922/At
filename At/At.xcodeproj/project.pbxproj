@@ -7,37 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3277831F4438D000151918 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3277821F4438D000151918 /* HotelViewController.swift */; };
+		3F3277851F4438F500151918 /* BedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3277841F4438F500151918 /* BedViewController.swift */; };
+		3F3277871F4438FF00151918 /* CondoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3277861F4438FF00151918 /* CondoViewController.swift */; };
 		3F33423D1F42DA9F00577C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33423C1F42DA9F00577C0F /* AppDelegate.swift */; };
-		3F33423F1F42DA9F00577C0F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33423E1F42DA9F00577C0F /* FirstViewController.swift */; };
-		3F3342411F42DA9F00577C0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3342401F42DA9F00577C0F /* SecondViewController.swift */; };
 		3F3342441F42DA9F00577C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3342421F42DA9F00577C0F /* Main.storyboard */; };
 		3F3342491F42DA9F00577C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3342471F42DA9F00577C0F /* LaunchScreen.storyboard */; };
 		3F6629641F431EEF000221C8 /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6629631F431EEF000221C8 /* bed.png */; };
 		3F6629681F432157000221C8 /* accomodation screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6629671F432157000221C8 /* accomodation screen.png */; };
 		3F66296A1F43223F000221C8 /* main screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6629691F43223F000221C8 /* main screen.png */; };
+		3F66296C1F43303A000221C8 /* navImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F66296B1F43303A000221C8 /* navImage.png */; };
 		3F9B09EF1F430CBD00A27C07 /* launch screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B09EE1F430CBD00A27C07 /* launch screen.png */; };
 		3F9B0A091F43192100A27C07 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0A041F43192100A27C07 /* plus.png */; };
 		3F9B0A0B1F43192100A27C07 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0A061F43192100A27C07 /* home.png */; };
 		3F9B0A0C1F43192100A27C07 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0A071F43192100A27C07 /* food.png */; };
 		3F9B0A0D1F43192100A27C07 /* accomodation.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0A081F43192100A27C07 /* accomodation.png */; };
+		3FC884211F441F29002995A1 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC884201F441F29002995A1 /* search.png */; };
+		3FC884231F4420B3002995A1 /* accomdation_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC884221F4420B3002995A1 /* accomdation_white.png */; };
+		3FC884251F44229B002995A1 /* AccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC884241F44229B002995A1 /* AccViewController.swift */; };
+		3FC884271F4422FF002995A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC884261F4422FF002995A1 /* MainViewController.swift */; };
+		3FC884291F442315002995A1 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC884281F442315002995A1 /* FoodViewController.swift */; };
+		3FC8842B1F44231C002995A1 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8842A1F44231C002995A1 /* MoreViewController.swift */; };
+		3FC8842D1F442A85002995A1 /* accOption.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8842C1F442A85002995A1 /* accOption.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3277821F4438D000151918 /* HotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotelViewController.swift; path = ../HotelViewController.swift; sourceTree = "<group>"; };
+		3F3277841F4438F500151918 /* BedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BedViewController.swift; path = ../BedViewController.swift; sourceTree = "<group>"; };
+		3F3277861F4438FF00151918 /* CondoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CondoViewController.swift; path = ../CondoViewController.swift; sourceTree = "<group>"; };
 		3F3342391F42DA9F00577C0F /* At.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = At.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F33423C1F42DA9F00577C0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F33423E1F42DA9F00577C0F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3F3342401F42DA9F00577C0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3F3342431F42DA9F00577C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F3342481F42DA9F00577C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F33424A1F42DA9F00577C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6629631F431EEF000221C8 /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bed.png; sourceTree = "<group>"; };
 		3F6629671F432157000221C8 /* accomodation screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accomodation screen.png"; sourceTree = "<group>"; };
 		3F6629691F43223F000221C8 /* main screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main screen.png"; sourceTree = "<group>"; };
+		3F66296B1F43303A000221C8 /* navImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navImage.png; sourceTree = "<group>"; };
 		3F9B09EE1F430CBD00A27C07 /* launch screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch screen.png"; sourceTree = "<group>"; };
 		3F9B0A041F43192100A27C07 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		3F9B0A061F43192100A27C07 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		3F9B0A071F43192100A27C07 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
 		3F9B0A081F43192100A27C07 /* accomodation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accomodation.png; sourceTree = "<group>"; };
+		3FC884201F441F29002995A1 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		3FC884221F4420B3002995A1 /* accomdation_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accomdation_white.png; sourceTree = "<group>"; };
+		3FC884241F44229B002995A1 /* AccViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccViewController.swift; sourceTree = "<group>"; };
+		3FC884261F4422FF002995A1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		3FC884281F442315002995A1 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		3FC8842A1F44231C002995A1 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		3FC8842C1F442A85002995A1 /* accOption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accOption.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F32777F1F44389000151918 /* AccViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FC884241F44229B002995A1 /* AccViewController.swift */,
+				3F3277821F4438D000151918 /* HotelViewController.swift */,
+				3F3277841F4438F500151918 /* BedViewController.swift */,
+				3F3277861F4438FF00151918 /* CondoViewController.swift */,
+			);
+			name = AccViewController;
+			sourceTree = "<group>";
+		};
+		3F3277801F44389A00151918 /* FoodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FC884281F442315002995A1 /* FoodViewController.swift */,
+			);
+			name = FoodViewController;
+			sourceTree = "<group>";
+		};
+		3F3277811F4438AA00151918 /* MoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8842A1F44231C002995A1 /* MoreViewController.swift */,
+			);
+			name = MoreViewController;
+			sourceTree = "<group>";
+		};
 		3F3342301F42DA9F00577C0F = {
 			isa = PBXGroup;
 			children = (
@@ -72,12 +117,14 @@
 			children = (
 				3F3342501F42DB6500577C0F /* tab image */,
 				3F33423C1F42DA9F00577C0F /* AppDelegate.swift */,
-				3F33423E1F42DA9F00577C0F /* FirstViewController.swift */,
-				3F3342401F42DA9F00577C0F /* SecondViewController.swift */,
 				3F9B09EE1F430CBD00A27C07 /* launch screen.png */,
 				3F3342421F42DA9F00577C0F /* Main.storyboard */,
+				3FC884261F4422FF002995A1 /* MainViewController.swift */,
+				3F3277801F44389A00151918 /* FoodViewController */,
+				3F32777F1F44389000151918 /* AccViewController */,
 				3F3342471F42DA9F00577C0F /* LaunchScreen.storyboard */,
 				3F33424A1F42DA9F00577C0F /* Info.plist */,
+				3F3277811F4438AA00151918 /* MoreViewController */,
 			);
 			path = At;
 			sourceTree = "<group>";
@@ -85,6 +132,10 @@
 		3F3342501F42DB6500577C0F /* tab image */ = {
 			isa = PBXGroup;
 			children = (
+				3FC8842C1F442A85002995A1 /* accOption.png */,
+				3FC884221F4420B3002995A1 /* accomdation_white.png */,
+				3FC884201F441F29002995A1 /* search.png */,
+				3F66296B1F43303A000221C8 /* navImage.png */,
 				3F6629691F43223F000221C8 /* main screen.png */,
 				3F6629671F432157000221C8 /* accomodation screen.png */,
 				3F6629631F431EEF000221C8 /* bed.png */,
@@ -157,12 +208,16 @@
 			files = (
 				3F9B0A0D1F43192100A27C07 /* accomodation.png in Resources */,
 				3F3342491F42DA9F00577C0F /* LaunchScreen.storyboard in Resources */,
+				3FC8842D1F442A85002995A1 /* accOption.png in Resources */,
 				3F9B0A0C1F43192100A27C07 /* food.png in Resources */,
 				3F3342441F42DA9F00577C0F /* Main.storyboard in Resources */,
+				3F66296C1F43303A000221C8 /* navImage.png in Resources */,
 				3F9B09EF1F430CBD00A27C07 /* launch screen.png in Resources */,
 				3F6629641F431EEF000221C8 /* bed.png in Resources */,
+				3FC884211F441F29002995A1 /* search.png in Resources */,
 				3F9B0A0B1F43192100A27C07 /* home.png in Resources */,
 				3F9B0A091F43192100A27C07 /* plus.png in Resources */,
+				3FC884231F4420B3002995A1 /* accomdation_white.png in Resources */,
 				3F6629681F432157000221C8 /* accomodation screen.png in Resources */,
 				3F66296A1F43223F000221C8 /* main screen.png in Resources */,
 			);
@@ -175,9 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3342411F42DA9F00577C0F /* SecondViewController.swift in Sources */,
+				3FC8842B1F44231C002995A1 /* MoreViewController.swift in Sources */,
+				3F3277831F4438D000151918 /* HotelViewController.swift in Sources */,
+				3F3277851F4438F500151918 /* BedViewController.swift in Sources */,
+				3FC884271F4422FF002995A1 /* MainViewController.swift in Sources */,
 				3F33423D1F42DA9F00577C0F /* AppDelegate.swift in Sources */,
-				3F33423F1F42DA9F00577C0F /* FirstViewController.swift in Sources */,
+				3FC884291F442315002995A1 /* FoodViewController.swift in Sources */,
+				3F3277871F4438FF00151918 /* CondoViewController.swift in Sources */,
+				3FC884251F44229B002995A1 /* AccViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
