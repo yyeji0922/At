@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="main screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nqy-Kx-S0v">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="main screen" translatesAutoresizingMaskIntoConstraints="NO" id="Nqy-Kx-S0v">
                                 <rect key="frame" x="0.0" y="-18" width="414" height="702"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="VyZ-Mf-9UN"/>
@@ -32,7 +32,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="home.png" selectedImage="home.png" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home.png" selectedImage="home" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3RE-za-n0k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2006" y="1763"/>
+            <point key="canvasLocation" x="1924" y="2278"/>
         </scene>
         <!--Acc-->
         <scene sceneID="wg7-f3-ORb">
@@ -97,7 +97,7 @@
                                 <color key="backgroundColor" red="0.31691241264343262" green="0.59916079044342041" blue="0.97259271144866943" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accomdation_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="nDc-ty-Vx6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accomdation_white" translatesAutoresizingMaskIntoConstraints="NO" id="nDc-ty-Vx6">
                                 <rect key="frame" x="120" y="204" width="174" height="92"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="174" id="FDi-hb-OSd"/>
@@ -115,7 +115,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="pTG-3N-5OH"/>
                                 </constraints>
-                                <state key="normal" image="search.png"/>
+                                <state key="normal" image="search"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URg-9H-dQ7">
                                 <rect key="frame" x="321" y="583" width="46" height="30"/>
@@ -124,7 +124,7 @@
                                     <segue destination="9Zv-oY-hse" kind="show" id="j1p-i8-r9w"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accOption.png" translatesAutoresizingMaskIntoConstraints="NO" id="QlN-v8-yk8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accOption" translatesAutoresizingMaskIntoConstraints="NO" id="QlN-v8-yk8">
                                 <rect key="frame" x="0.0" y="520" width="414" height="167"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="167" id="ZcL-BE-oNW"/>
@@ -272,9 +272,9 @@
         <scene sceneID="T8R-Pc-XNg">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Nf-yR-8pZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Food" image="food.png" selectedImage="food.png" id="ldL-cB-mVI"/>
+                    <tabBarItem key="tabBarItem" title="Food" image="food.png" selectedImage="food" id="ldL-cB-mVI"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pre-au-CMB">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Pre-au-CMB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -314,9 +314,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5a-8D-MwM">
                                                 <rect key="frame" x="303" y="310" width="20" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="search.png"/>
+                                                <state key="normal" image="search"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nuo-36-Mgc">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food screen" translatesAutoresizingMaskIntoConstraints="NO" id="Nuo-36-Mgc">
                                                 <rect key="frame" x="120" y="132" width="174" height="92"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -360,7 +360,7 @@
                                                     <segue destination="VWm-wQ-10f" kind="show" id="j2s-zu-cho"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="yWJ-9o-Tha">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food copy" translatesAutoresizingMaskIntoConstraints="NO" id="yWJ-9o-Tha">
                                                 <rect key="frame" x="0.0" y="465" width="414" height="499"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -387,7 +387,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="1924.6376811594205" y="568.20652173913049"/>
+            <point key="canvasLocation" x="1923" y="569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VaQ-2u-ASM">
@@ -395,7 +395,7 @@
                 <viewController id="dCn-Ny-Z2v" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VcC-zj-Fyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2691" y="568"/>
+            <point key="canvasLocation" x="2712" y="568"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TWa-gJ-Nik">
@@ -413,7 +413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C6m-34-No8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3493" y="567"/>
+            <point key="canvasLocation" x="3513" y="567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="apj-Np-LzJ">
@@ -449,15 +449,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LGH-dx-qmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5025" y="590"/>
+            <point key="canvasLocation" x="5074" y="567"/>
         </scene>
         <!--Acc-->
         <scene sceneID="ood-c1-VvA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NK4-WL-Pv8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Acc" image="accomodation.png" selectedImage="accomodation.png" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Acc" image="accomodation.png" selectedImage="accomodation" id="cPa-gy-q4n"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Qm-bc-uge">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="1Qm-bc-uge">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -474,9 +474,9 @@
         <scene sceneID="s1n-4e-QgD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BnZ-YF-Lwr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="More" image="plus.png" selectedImage="plus.png" id="cev-2b-kLK"/>
+                    <tabBarItem key="tabBarItem" title="More" image="plus.png" selectedImage="plus" id="cev-2b-kLK"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H6v-x0-hgc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="H6v-x0-hgc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -491,16 +491,20 @@
         </scene>
     </scenes>
     <resources>
-        <image name="accOption.png" width="1556" height="644"/>
-        <image name="accomdation_white.png" width="150" height="113"/>
+        <image name="accOption" width="1556" height="644"/>
+        <image name="accomdation_white" width="150" height="113"/>
+        <image name="accomodation" width="35" height="27"/>
         <image name="accomodation.png" width="35" height="27"/>
         <image name="bed.png" width="150" height="113"/>
-        <image name="food copy.png" width="375" height="1232"/>
-        <image name="food screen.png" width="130" height="130"/>
+        <image name="food" width="28" height="28"/>
+        <image name="food copy" width="375" height="1232"/>
+        <image name="food screen" width="130" height="130"/>
         <image name="food.png" width="28" height="28"/>
+        <image name="home" width="30" height="27"/>
         <image name="home.png" width="30" height="27"/>
-        <image name="main screen.png" width="1056" height="1884"/>
+        <image name="main screen" width="1056" height="1884"/>
+        <image name="plus" width="30" height="30"/>
         <image name="plus.png" width="30" height="30"/>
-        <image name="search.png" width="20" height="20"/>
+        <image name="search" width="20" height="20"/>
     </resources>
 </document>
