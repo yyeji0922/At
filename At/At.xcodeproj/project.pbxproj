@@ -17,6 +17,8 @@
 		3F6629681F432157000221C8 /* accomodation screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6629671F432157000221C8 /* accomodation screen.png */; };
 		3F66296A1F43223F000221C8 /* main screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6629691F43223F000221C8 /* main screen.png */; };
 		3F66296C1F43303A000221C8 /* navImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F66296B1F43303A000221C8 /* navImage.png */; };
+		3F676EA31F45E749005559E1 /* food screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F676EA21F45E749005559E1 /* food screen.png */; };
+		3F676EA51F45E813005559E1 /* food copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F676EA41F45E813005559E1 /* food copy.png */; };
 		3F9B09EF1F430CBD00A27C07 /* launch screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B09EE1F430CBD00A27C07 /* launch screen.png */; };
 		3F9B0A091F43192100A27C07 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0A041F43192100A27C07 /* plus.png */; };
 		3F9B0A0B1F43192100A27C07 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0A061F43192100A27C07 /* home.png */; };
@@ -29,6 +31,8 @@
 		3FC884291F442315002995A1 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC884281F442315002995A1 /* FoodViewController.swift */; };
 		3FC8842B1F44231C002995A1 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8842A1F44231C002995A1 /* MoreViewController.swift */; };
 		3FC8842D1F442A85002995A1 /* accOption.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8842C1F442A85002995A1 /* accOption.png */; };
+		3FD3F1E51F446DA4007A2024 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3F1E41F446DA4007A2024 /* blue.png */; };
+		3FD3F1E71F446DD3007A2024 /* blue2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3F1E61F446DD3007A2024 /* blue2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,8 @@
 		3F6629671F432157000221C8 /* accomodation screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accomodation screen.png"; sourceTree = "<group>"; };
 		3F6629691F43223F000221C8 /* main screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main screen.png"; sourceTree = "<group>"; };
 		3F66296B1F43303A000221C8 /* navImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navImage.png; sourceTree = "<group>"; };
+		3F676EA21F45E749005559E1 /* food screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food screen.png"; sourceTree = "<group>"; };
+		3F676EA41F45E813005559E1 /* food copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food copy.png"; sourceTree = "<group>"; };
 		3F9B09EE1F430CBD00A27C07 /* launch screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch screen.png"; sourceTree = "<group>"; };
 		3F9B0A041F43192100A27C07 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		3F9B0A061F43192100A27C07 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 		3FC884281F442315002995A1 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		3FC8842A1F44231C002995A1 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		3FC8842C1F442A85002995A1 /* accOption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accOption.png; sourceTree = "<group>"; };
+		3FD3F1E41F446DA4007A2024 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		3FD3F1E61F446DD3007A2024 /* blue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +140,15 @@
 		3F3342501F42DB6500577C0F /* tab image */ = {
 			isa = PBXGroup;
 			children = (
+				3FD3F1E41F446DA4007A2024 /* blue.png */,
+				3FD3F1E61F446DD3007A2024 /* blue2.png */,
 				3FC8842C1F442A85002995A1 /* accOption.png */,
+				3F676EA41F45E813005559E1 /* food copy.png */,
 				3FC884221F4420B3002995A1 /* accomdation_white.png */,
 				3FC884201F441F29002995A1 /* search.png */,
 				3F66296B1F43303A000221C8 /* navImage.png */,
 				3F6629691F43223F000221C8 /* main screen.png */,
+				3F676EA21F45E749005559E1 /* food screen.png */,
 				3F6629671F432157000221C8 /* accomodation screen.png */,
 				3F6629631F431EEF000221C8 /* bed.png */,
 				3F9B0A041F43192100A27C07 /* plus.png */,
@@ -208,15 +220,19 @@
 			files = (
 				3F9B0A0D1F43192100A27C07 /* accomodation.png in Resources */,
 				3F3342491F42DA9F00577C0F /* LaunchScreen.storyboard in Resources */,
+				3F676EA31F45E749005559E1 /* food screen.png in Resources */,
 				3FC8842D1F442A85002995A1 /* accOption.png in Resources */,
 				3F9B0A0C1F43192100A27C07 /* food.png in Resources */,
 				3F3342441F42DA9F00577C0F /* Main.storyboard in Resources */,
 				3F66296C1F43303A000221C8 /* navImage.png in Resources */,
+				3FD3F1E71F446DD3007A2024 /* blue2.png in Resources */,
 				3F9B09EF1F430CBD00A27C07 /* launch screen.png in Resources */,
 				3F6629641F431EEF000221C8 /* bed.png in Resources */,
 				3FC884211F441F29002995A1 /* search.png in Resources */,
+				3F676EA51F45E813005559E1 /* food copy.png in Resources */,
 				3F9B0A0B1F43192100A27C07 /* home.png in Resources */,
 				3F9B0A091F43192100A27C07 /* plus.png in Resources */,
+				3FD3F1E51F446DA4007A2024 /* blue.png in Resources */,
 				3FC884231F4420B3002995A1 /* accomdation_white.png in Resources */,
 				3F6629681F432157000221C8 /* accomodation screen.png in Resources */,
 				3F66296A1F43223F000221C8 /* main screen.png in Resources */,

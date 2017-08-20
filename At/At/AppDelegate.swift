@@ -16,12 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        UINavigationBar.appearance().barTintColor = UIColor(red: 80/255, green: 153/255, blue: 249/255, alpha: 1)
+        UINavigationBar.appearance().barTintColor = UIColor(red: 42/255, green: 131/255, blue: 255/255, alpha: 1/1)
+        //UINavigationBar.appearance().barTintColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
         
-        //let navImage:UIImage = UIImage(named: "navImage.png")!
-       // UINavigationBar.appearance().setBackgroundImage(navImage, for: .default)
+        //let navImage:UIImage = UIImage(named: "blue.png")!
+        //UINavigationBar.appearance().setBackgroundImage(navImage, for: .compactPrompt)
         return true
     }
 
