@@ -12,7 +12,7 @@ class KoreanFoodViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Korean"
         // Do any additional setup after loading the view.
     }
 

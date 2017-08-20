@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1AC27E1F494825003B1DD9 /* WesternFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AC27D1F494825003B1DD9 /* WesternFoodViewController.swift */; };
 		3F3277831F4438D000151918 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3277821F4438D000151918 /* HotelViewController.swift */; };
 		3F3277851F4438F500151918 /* BedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3277841F4438F500151918 /* BedViewController.swift */; };
 		3F3277871F4438FF00151918 /* CondoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3277861F4438FF00151918 /* CondoViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1AC27D1F494825003B1DD9 /* WesternFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WesternFoodViewController.swift; sourceTree = "<group>"; };
 		3F3277821F4438D000151918 /* HotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotelViewController.swift; path = ../HotelViewController.swift; sourceTree = "<group>"; };
 		3F3277841F4438F500151918 /* BedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BedViewController.swift; path = ../BedViewController.swift; sourceTree = "<group>"; };
 		3F3277861F4438FF00151918 /* CondoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CondoViewController.swift; path = ../CondoViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				3FB063251F493F1E0049E1C0 /* KoreanFoodViewController.swift */,
 				3FB063271F493F340049E1C0 /* JapaneseFoodViewController.swift */,
 				3FB063291F493F580049E1C0 /* ChineseFoodViewController.swift */,
+				3F1AC27D1F494825003B1DD9 /* WesternFoodViewController.swift */,
 			);
 			name = FoodViewController;
 			sourceTree = "<group>";
@@ -104,7 +107,6 @@
 			children = (
 				3F33423C1F42DA9F00577C0F /* AppDelegate.swift */,
 				3FB0632B1F493F9D0049E1C0 /* Assets.xcassets */,
-				3F3342501F42DB6500577C0F /* tab image */,
 				3F3342421F42DA9F00577C0F /* Main.storyboard */,
 				3FC884261F4422FF002995A1 /* MainViewController.swift */,
 				3F3277801F44389A00151918 /* FoodViewController */,
@@ -114,13 +116,6 @@
 				3F3277811F4438AA00151918 /* MoreViewController */,
 			);
 			path = At;
-			sourceTree = "<group>";
-		};
-		3F3342501F42DB6500577C0F /* tab image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "tab image";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +195,7 @@
 				3F3277851F4438F500151918 /* BedViewController.swift in Sources */,
 				3FB0632A1F493F580049E1C0 /* ChineseFoodViewController.swift in Sources */,
 				3FC884271F4422FF002995A1 /* MainViewController.swift in Sources */,
+				3F1AC27E1F494825003B1DD9 /* WesternFoodViewController.swift in Sources */,
 				3FB063281F493F340049E1C0 /* JapaneseFoodViewController.swift in Sources */,
 				3F33423D1F42DA9F00577C0F /* AppDelegate.swift in Sources */,
 				3FC884291F442315002995A1 /* FoodViewController.swift in Sources */,

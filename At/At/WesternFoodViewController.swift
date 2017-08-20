@@ -1,5 +1,5 @@
 //
-//  JapaneseFoodViewController.swift
+//  WesternFoodViewController.swift
 //  At
 //
 //  Created by sungje on 2017. 8. 20..
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class JapaneseFoodViewController: UIViewController {
+class WesternFoodViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Japanese"
+        self.title = "Western"
         // Do any additional setup after loading the view.
     }
 
