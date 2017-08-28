@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="zDD-Ng-jkC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch screen" translatesAutoresizingMaskIntoConstraints="NO" id="zDD-Ng-jkC">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="736" id="DzW-xt-Z0c"/>
@@ -43,6 +43,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch screen.png" width="750" height="1334"/>
+        <image name="launch screen" width="750" height="1334"/>
     </resources>
 </document>
