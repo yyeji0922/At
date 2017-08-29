@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AccViewController: UIViewController {
+class AccViewController: UIViewController, UISearchBarDelegate {
 
     @IBOutlet weak var search_button: UIButton!
     @IBOutlet weak var searchBar: UISearchBar!

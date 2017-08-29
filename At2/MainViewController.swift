@@ -18,7 +18,7 @@ class MainViewController: UIViewController, UIPickerViewDelegate {
     @IBOutlet weak var lblCity: UILabel!
     let max = 10
     let pickerViewColumn = 1
-    var pickerName = ["Seoul", "Gangneung", "Chuncheon"]
+    var pickerName = ["Seoul", "Gangneung", "Goyang"]
     var degree: Int!
     var condition: String!
     var imgURL: String!
