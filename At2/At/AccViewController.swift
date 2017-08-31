@@ -24,8 +24,9 @@ class AccViewController: UIViewController, UISearchBarDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    /*
+    
     var isSearching = false
+    var searchResult = ["a", "b", "c", "d", "e", "f"]
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
         if isSearching { return searchResult.count }
@@ -50,6 +51,6 @@ class AccViewController: UIViewController, UISearchBarDelegate {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+ 
 
 }
